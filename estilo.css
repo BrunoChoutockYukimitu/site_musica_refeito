@@ -1,0 +1,305 @@
+/* 1. Remove margens, padding e ajusta box-sizing de todos os elementos */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+/* 2. Normaliza o comportamento das fontes */
+html {
+  font-size: 100%;
+}
+ 
+body {
+  line-height: 1.5;
+  font-family: Arial, sans-serif;
+  color: #000;
+}
+ 
+/* 3. Remove o estilo padrão de links */
+a {
+  text-decoration: none;
+  /* Remove o sublinhado */
+  color: inherit;
+  /* Herda a cor do elemento pai */
+}
+ 
+/* 4. Remove estilo de listas */
+ul,
+ol {
+  list-style: none;
+  /* Remove os pontos ou números das listas */
+}
+ 
+/* 5. Remove o estilo de tabelas */
+table {
+  border-collapse: collapse;
+  /* Colapsa as bordas das tabelas */
+  width: 100%;
+}
+ 
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+ 
+/* 6. Remove o estilo de inputs, botões e áreas de texto */
+input,
+button,
+textarea {
+  border: none;
+  outline: none;
+  font-family: inherit;
+  font-size: inherit;
+}
+ 
+/* 7. Reset do comportamento das imagens */
+img {
+  max-width: 100%;
+  /* Garante que as imagens não ultrapassem os limites do contêiner */
+  display: block;
+  /* Remove o espaço embaixo das imagens */
+}
+ 
+.cabecalho{
+display: flex;
+  justify-content: space-around;
+    margin-right: 1050px;
+}
+.menu{
+padding-top:17px;
+padding-bottom: 17px;
+padding-top: 17px;
+padding-bottom: 17px;
+display: flex;
+margin-left: 16.08px;
+}
+.logo{
+  align-items: start;
+margin-right: 200%;
+}
+ 
+.espaco{
+  padding: 10px;
+  }
+ 
+.baner_guitarra{
+width: 100%;
+}
+ 
+ 
+.categorias {
+flex-wrap: wrap;
+color: red;
+display: block;
+justify-content: space-around;
+}
+ 
+.instrumento{
+  background-color: #D9D9D9;
+}
+ 
+.venda1 {
+margin-right: 37px;
+margin-left: 37px;
+}
+ 
+.venda2 {
+  margin-right: 37px;
+  margin-left: 37px;
+  }
+ 
+.linha1{
+  display:flex;
+  flex-wrap: wrap;
+  width: 1293px;
+}
+.link{
+  width: 200px;
+}
+.produtos{
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+ 
+.titulo{
+  font-family: Raleway;
+  font-size: 18px;
+  margin-top: 23px;
+  margin-left: 84px;
+  margin-right: 84px;
+}
+ 
+.posicao{
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  padding-bottom: 50px;
+  margin-top: 63px;
+  margin-left: 69px;
+  margin-right: 69px;
+}
+ 
+.ir{
+padding-left: 80px;
+padding-top: 20px;
+padding-right: 80px;
+padding-bottom: 20px;
+font-size: 25px;
+border: 1px #D9D9D9;
+border-radius: 5px;
+}
+ 
+.texto{
+margin-left: 20px;
+font-size: 16px
+}
+ 
+.corpoP{
+display: flex;
+ 
+}
+ 
+.promo{
+  font-family: Raleway;
+  font-size: 25px;
+  padding-left: 70px;
+  padding-right: 70px;
+margin-top: 70px;
+}
+ 
+.text_promo{
+font-family: Poppins;
+font-size: 16px;
+margin-left: 70px;
+ 
+margin-bottom: 50px;
+padding-right: 70px;
+}
+ 
+.lado{
+  margin-left: 72px;
+  border: 1px solid black;
+}
+ 
+.botao{
+padding-left: 40px;
+padding-top: 5px;
+padding-right: 40px;
+padding-bottom: 10px;
+font-size: 25px;
+border: 1px gray;
+background-color: #D9D9D9;
+color: #FFFFFF;
+margin-right: 70px;
+text-decoration: none;
+font-family: Raleway;
+border-radius: 5px;
+}
+ 
+.posisao{
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  padding-bottom: 22px;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+ 
+.espacos{
+  margin-left: 23px;
+}
+ 
+.redes{
+  font-family: Raleway;
+  font-size: 25px;
+justify-content: center;
+display: flex;
+align-items: center;
+  padding-right: 70px;
+margin-top: 70px;
+}
+ 
+.contatos{
+  align-items: center;
+justify-content: center;
+ 
+}
+ 
+.recebimento{
+  display: flex;
+ 
+flex-wrap: nowrap;
+justify-content: center;
+align-items: center;
+}
+ 
+.anotacao{
+  flex-wrap: wrap;
+  font-size: 16px;
+  background-color: #EAEAEA;  
+  background: cover;
+  width: 477px;
+  height: 40px;
+  margin-right: 16px;
+margin-left: 16px;
+margin-bottom:15px;
+margin-top: 15px;
+padding-left: 10px;
+padding-top: 5px;
+padding-right: 10px;
+padding-bottom: 5px;
+border-radius: 5px;
+}
+ 
+.recebimento2{
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+ 
+.anotacao2{
+  flex-wrap: wrap;
+  font-size: 16px;
+  background-color: #EAEAEA;  
+  background: cover;
+  width: 477px;
+  height: 40px;
+  margin-right: 16px;
+margin-left: 16px;
+margin-bottom:47px;
+margin-top: 15px;
+padding-left: 10px;
+padding-top: 5px;
+padding-right: 10px;
+padding-bottom: 5px;
+border-radius: 5px;
+}
+ 
+.centro{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.centroB{
+  display: flex;
+align-items: center;
+justify-content: center;
+}
+ 
+.botaoU{
+padding-left: 40px;
+padding-top: 10px;
+padding-right: 40px;
+padding-bottom: 10px;
+font-size: 25px;
+border: 1px gray;
+background-color: #D9D9D9;
+font-family: Raleway;
+}
